@@ -54,7 +54,7 @@ Local backups contain device pairing credentials. Keep them in a private, encryp
 
 - [Official website](https://sidekite.zhosix.com/)
 - [Privacy policy](https://sidekite.zhosix.com/privacy)
-- Support and security: `linkflow@zhosix.com` (retained during the transition)
+- Support and security: `sidekite@zhosix.com`
 
 ---
 
@@ -110,4 +110,4 @@ Get-FileHash .\LinkFlow-Pair-1.0.0-Windows-x64.exe -Algorithm SHA256
 
 - [官方网站](https://sidekite.zhosix.com/)
 - [隐私政策](https://sidekite.zhosix.com/privacy)
-- 支持与安全问题：`linkflow@zhosix.com`（过渡期间继续保留）
+- 支持与安全问题：`sidekite@zhosix.com`
