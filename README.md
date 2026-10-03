@@ -1,14 +1,18 @@
-# LinkFlow Pair
+# SideKite Pair
 
-LinkFlow Pair 官方 macOS 与 Windows 版本发布页。
+SideKite Pair（原 LinkFlow Pair）官方 macOS 与 Windows 版本发布页。
+
+项目现已更名为 SideKite Pair。历史 Release、安装包文件名和校验值保持不变；过渡期间旧支持入口继续保留。
+
+Official macOS and Windows releases for SideKite Pair (formerly LinkFlow Pair). Historical release assets and checksums remain unchanged.
 
 LinkFlow Pair 用于在电脑与运行 LinkFlow 的 Apple 设备之间完成设备发现、配对资料生成或导入、验证和传输。配对资料默认只在本机和所选设备之间处理。
 
 ## 下载
 
-请从本仓库的 [Releases](https://github.com/zhosix/linkflowpair/releases) 下载最新版本，并核对发布页提供的 SHA-256。
+请从本仓库的 [Releases](https://github.com/zhosix/sidekitepair/releases) 下载最新版本，并核对发布页提供的 SHA-256。
 
-当前版本：**1.0.0**
+当前公开版本：**LinkFlow Pair 1.0.0**
 
 | 平台 | 发布文件 | 系统要求 |
 | --- | --- | --- |
