@@ -4,11 +4,30 @@
 
 ## English
 
-**The desktop Remote Pairing companion for SideKite.**
+**Install signed IPAs and set up Remote Pairing for SideKite on macOS and Windows.**
 
-SideKite Pair creates Remote Pairing files on macOS and Windows. Import a new file directly into SideKite, save it to SideKite Archive, or keep a local backup for later use.
+Use SideKite Pair to install an already signed IPA on your iPhone or iPad, including a first-time SideKite installation. You can also create Remote Pairing files, import them directly into SideKite, save them to SideKite Archive, or keep a local backup. The app includes 19 interface languages.
 
 [Download](https://github.com/zhosix/sidekitepair/releases/latest) · [Official website](https://sidekite.zhosix.com) · [SideKite for iOS](https://github.com/zhosix/sidekite)
+
+### What you can do
+
+| Task | What it does |
+| --- | --- |
+| **Install a signed IPA** | Install an IPA that has already been signed with a certificate or Apple ID. This also supports the first installation of SideKite. |
+| **Generate and import** | Create a Remote Pairing file, transfer it to SideKite, and confirm the import. |
+| **Save to SideKite Archive** | Keep a new pairing file for later manual import without changing the active pairing. |
+| **Save a local backup** | Save a new pairing file on your computer for later use. |
+
+### Requirements
+
+| | Requirements |
+| --- | --- |
+| **macOS** | macOS 11 or later; Apple silicon and Intel. |
+| **Windows** | Windows 10/11 x64, with Apple Devices or the desktop edition of iTunes installed. The EXE is portable. |
+| **IPA installation** | iPhone or iPad running iOS/iPadOS 17 or later, with a signed IPA whose provisioning profile authorizes the device. |
+| **Remote Pairing** | iOS/iPadOS 17.4 or later. Automatic import and Archive delivery require SideKite to be installed and open. |
+| **Connection** | Unlock the device and complete **Trust This Computer** over USB. Wireless use additionally requires Wi-Fi sync and the same local network. |
 
 ### Download and installation
 
@@ -18,19 +37,23 @@ These applications are not Developer ID–signed, Apple-notarized, or Authentico
 
 The SHA-256 is shown beside each asset on the [download page](https://github.com/zhosix/sidekitepair/releases/latest).
 
-### Use
+### Install a signed IPA
 
-1. Open SideKite on an iPhone or iPad running iOS/iPadOS 17.4 or later and keep it in the foreground.
-2. Connect it to the computer over USB, unlock the device, and complete **Trust This Computer**.
-3. Open SideKite Pair, select the device, and choose an action.
+1. Save an IPA that has already been signed with a certificate or Apple ID to your computer.
+2. Connect and unlock the iPhone or iPad, trust the computer, and select the device in Pair.
+3. Open **Install a signed IPA**, choose the file, and confirm the app and target device before installation.
+4. Keep the device connected while Pair checks the result. Follow any Developer Mode or developer-trust prompts on the device.
 
-| Action | Purpose |
-| --- | --- |
-| **Generate and import** | Create a new Remote Pairing file, transfer it to SideKite, and complete the import. |
-| **Save to SideKite Archive** | Keep a new file in SideKite's Archive for later manual import without changing the active pairing. |
-| **Save a local backup** | Save a new file on your computer for later use. |
+SideKite does not need to be installed beforehand. Pair preserves the IPA's existing signature; iOS still checks the signature, provisioning profile, and device authorization.
 
-Wi-Fi requires prior USB trust and Wi-Fi sync. Windows requires Apple Devices or the desktop edition of iTunes. Saving to Archive requires a SideKite version that supports this feature.
+### Set up Remote Pairing
+
+1. Open SideKite on the device and keep it in the foreground.
+2. Connect the trusted, unlocked device and select it in Pair.
+3. Open **Remote Pairing**, then choose **Generate and import**. Alternatively, save a new file to SideKite Archive or save a local backup.
+4. Wait for Pair to confirm that SideKite imported the file, then check the connection in SideKite.
+
+Automatic import targets `com.zhosix.sidekite`. If signing changes the Bundle ID, use **Save a local backup**, transfer the file to your device, and import it from inside SideKite. Saving to Archive requires a SideKite version that supports this feature.
 
 ### Community
 
@@ -62,11 +85,30 @@ Click a code to view it at full size, then scan or save it using the correspondi
 
 ## 简体中文
 
-**SideKite 的桌面远程配对助手，支持 macOS 与 Windows。**
+**SideKite 的桌面安装与远程配对助手，支持 macOS 与 Windows。**
 
-生成远程配对文件，直接导入 SideKite，或保存到档案页和本地留作备用。
+将已签名 IPA 安装到 iPhone 或 iPad，也可用于首次安装 SideKite；生成远程配对文件并直接导入 SideKite，或保存到档案页和本地留作备用。界面支持 19 种语言。
 
 [下载最新版](https://github.com/zhosix/sidekitepair/releases/latest) · [SideKite 官网](https://sidekite.zhosix.com) · [SideKite iOS 版](https://github.com/zhosix/sidekite)
+
+### 主要功能
+
+| 操作 | 用途 |
+| --- | --- |
+| **安装已签名 IPA** | 安装已使用证书或 Apple ID 签好的 IPA，也支持首次安装 SideKite。 |
+| **生成并导入** | 生成远程配对文件，传送到 SideKite 并确认完成导入。 |
+| **保存到 SideKite 档案** | 将新配对文件留作之后手动导入，当前启用的配对保持不变。 |
+| **保存本地备份** | 将新配对文件保存到电脑，留作备用。 |
+
+### 使用要求
+
+| | 要求 |
+| --- | --- |
+| **macOS** | macOS 11 或更高版本，支持 Apple 芯片与 Intel。 |
+| **Windows** | Windows 10/11 x64，需安装 Apple Devices 或桌面版 iTunes；EXE 为便携版。 |
+| **IPA 安装** | iPhone 或 iPad 运行 iOS/iPadOS 17 或更高版本，IPA 已签名且描述文件允许该设备安装。 |
+| **远程配对** | iOS/iPadOS 17.4 或更高版本；自动导入及保存到档案需先安装并打开 SideKite。 |
+| **设备连接** | 解锁设备，并先通过 USB 完成“信任此电脑”；无线连接还需开启 Wi-Fi 同步，并处于同一局域网。 |
 
 ### 下载与安装
 
@@ -76,19 +118,23 @@ macOS 打开 DMG 后将 App 拖入“应用程序”；Windows 下载后直接�
 
 文件的 SHA-256 可在[下载页](https://github.com/zhosix/sidekitepair/releases/latest)对应附件旁查看。
 
-### 使用
+### 安装已签名 IPA
 
-1. 在 iPhone 或 iPad 上打开 SideKite，并保持在前台。设备需运行 iOS/iPadOS 17.4 或更高版本。
-2. 通过 USB 连接电脑，解锁设备并完成“信任此电脑”。
-3. 打开 SideKite Pair，选择设备，再按需要选择操作。
+1. 将已使用证书或 Apple ID 签好的 IPA 保存到电脑。
+2. 连接并解锁 iPhone 或 iPad，信任电脑，然后在 Pair 中选择目标设备。
+3. 打开 **安装已签名 IPA**，选择文件，核对应用与目标设备后确认安装。
+4. 保持连接，等待 Pair 核验安装结果，再按设备提示启用开发者模式或信任开发者。
 
-| 操作 | 用途 |
-| --- | --- |
-| **生成并导入** | 生成新的远程配对文件，传送到 SideKite 并完成导入。 |
-| **保存到 SideKite 档案** | 将新文件保存到 SideKite 的档案页，供之后手动导入，当前启用的配对保持不变。 |
-| **保存本地备份** | 将新文件保存到电脑，留作备用。 |
+首次安装时，手机上无需已有 SideKite。Pair 保留 IPA 原有签名，iOS 仍会检查签名、描述文件及设备授权。
 
-无线连接需先完成 USB 信任并开启 Wi-Fi 同步。Windows 需安装 Apple Devices 或桌面版 iTunes。保存到档案需搭配支持该功能的 SideKite 版本。
+### 设置远程配对
+
+1. 在设备上打开 SideKite，并保持在前台。
+2. 连接已信任且解锁的设备，在 Pair 中选择它。
+3. 打开 **远程配对**，选择 **生成并导入**；也可按需要将新文件保存到 SideKite 档案或本地备份。
+4. 等待 Pair 确认 SideKite 已完成导入，再检查 App 中的连接状态。
+
+自动导入对应 `com.zhosix.sidekite`。若签名后应用的 Bundle ID 已改变，请选择 **保存本地备份**，将文件传到设备后，在 SideKite 内手动导入。保存到档案需搭配支持该功能的 SideKite 版本。
 
 ### 社群
 
