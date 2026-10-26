@@ -53,7 +53,7 @@ SideKite does not need to be installed beforehand. Pair preserves the IPA's exis
 3. Open **Remote Pairing**, then choose **Generate and import**. Alternatively, save a new file to SideKite Archive or save a local backup.
 4. Wait for Pair to confirm that SideKite imported the file, then check the connection in SideKite.
 
-Automatic import targets `com.zhosix.sidekite`. If signing changes the Bundle ID, use **Save a local backup**, transfer the file to your device, and import it from inside SideKite. Saving to Archive requires a SideKite version that supports this feature.
+Supports `com.zhosix.sidekite` and `com.zhosix.sidekite.*`
 
 ### Community
 
@@ -134,7 +134,7 @@ macOS 打开 DMG 后将 App 拖入“应用程序”；Windows 下载后直接�
 3. 打开 **远程配对**，选择 **生成并导入**；也可按需要将新文件保存到 SideKite 档案或本地备份。
 4. 等待 Pair 确认 SideKite 已完成导入，再检查 App 中的连接状态。
 
-自动导入对应 `com.zhosix.sidekite`。若签名后应用的 Bundle ID 已改变，请选择 **保存本地备份**，将文件传到设备后，在 SideKite 内手动导入。保存到档案需搭配支持该功能的 SideKite 版本。
+支持 `com.zhosix.sidekite` 及 `com.zhosix.sidekite.*`
 
 ### 社群
 
